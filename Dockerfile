@@ -14,7 +14,7 @@ RUN npm install --frozen-lockfile
 COPY . .
 
 # Exponha a porta que o servidor irá usar (modifique se necessário)
-EXPOSE 3000
+EXPOSE 8080
 
 # Defina a variável de ambiente NODE_ENV como production, caso necessário
 ENV NODE_ENV=production
